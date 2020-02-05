@@ -24,7 +24,8 @@ app.post('/process', controller.akp);
 
 app.get('/trace', controller.view);
 
+app.set('port',process.env.PORT || 3000);
 
-app.listen(7777, function () {
+app.listen(app.get('port'), function () {
   console.log('Example app listening on port 7777!');
 });
