@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+  title AKP Prototype
+  meta( charset='utf-8' )
+  meta( http-equiv='X-UA-Compatible', content='IE=edge' )
+  meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+  meta( name='description', content='Baking Bootstrap Snippets with Jade' )
+  //- Bootswatch Theme
+  link(href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.0/flatly/bootstrap.min.css", rel="stylesheet")
+
+  body(style="padding-bottom:10rem;")
+    .container
+      .row
+        .col-md-12.text-center.mt-2
+          table.table.table-bordered.mt-4
+            thead.thead-dark
+              tr
+                th IP
+                th B
+                th E
+                th C
+                th S
+                th OP
+                th Preconditions
+                th Postconditions
+                th Y
+
+            tbody
+              each n in AKP
+                tr
+                  th= n.is_a.Profile
+                  td= n.has.F.has.Value.has.PCField.B
+                  td= n.has.F.has.Value.has.PCField.E
+                  td= n.has.F.has.Value.has.PCField.C
+                  td= n.has.F.has.Value.has.PCField.S
+                  td
+                    .table-responsive
+                      table
+                        thead.thead-dark
+                          tr
+                            th ID
+                            th name
+                        tbody
+                            tr
+                              td= n.has.F.has.Value.has.PCField.OP.ID
+                              td= n.has.F.has.Value.has.PCField.OP.name
+                  td= n.has.F.has.preconditions
+                  td= n.has.F.has.postconditions
+                  td= n.has.F.has.Y
+
+    a(href="/" class="btn btn-info") Inicio
+
+
+    script( src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' )
+    script( src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js' )

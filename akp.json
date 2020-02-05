@@ -1,0 +1,174 @@
+{
+    "obj": {
+        "data": [
+            {
+                "is_a": {
+                    "Profile": "estefany"
+                },
+                "has": {
+                    "F": {
+                        "is a": {
+                            "type": "Field"
+                        },
+                        "has": {
+                            "Name": "estefany",
+                            "Value": {
+                                "is a": {
+                                    "type": "AKP_Field"
+                                },
+                                "has": {
+                                    "PCField": {
+                                        "id": "_dc93hzq2q",
+                                        "B": 1564157046594,
+                                        "E": 1564157046594,
+                                        "IP": "estefany",
+                                        "OP": {
+                                            "id": "_fdneg8jp0",
+                                            "typeSMU": "",
+                                            "name": "estefany"
+                                        },
+                                        "C": "Low",
+                                        "S": "Activo"
+                                    }
+                                }
+                            },
+                            "preconditions": [
+                                "pre_read_stimuli",
+                                "pre_encodeSMU",
+                                "pre_saveSMUtoSSM",
+                                "pre_copySMUtoBCPUInput"
+                            ],
+                            "postconditions": [
+                                "post_read_stimuli",
+                                "post_encodeSMU",
+                                "post_saveSMUtoSSM",
+                                "post_copySMUtoBCPUInput"
+                            ],
+                            "Y": [
+                                "new_stimuli_is_detected",
+                                "input_is_read_from_sensor",
+                                "input_fact_is_encode",
+                                "input_fact_is_saved_into_SSM",
+                                "input_fact_is_copied_into_BCPU_input",
+                                "input_is_perceive"
+                            ]
+                        }
+                    }
+                },
+                "A": []
+            },
+            {
+                "is_a": {
+                    "Profile": "heider"
+                },
+                "has": {
+                    "F": {
+                        "is a": {
+                            "type": "Field"
+                        },
+                        "has": {
+                            "Name": "heider",
+                            "Value": {
+                                "is a": {
+                                    "type": "AKP_Field"
+                                },
+                                "has": {
+                                    "PCField": {
+                                        "id": "_8cdr4cv57",
+                                        "B": 1564157046594,
+                                        "E": 1564157046594,
+                                        "IP": "heider",
+                                        "OP": {
+                                            "id": "_hnasm56p6",
+                                            "typeSMU": "",
+                                            "name": "heider"
+                                        },
+                                        "C": "Medium",
+                                        "S": "Activo"
+                                    }
+                                }
+                            },
+                            "preconditions": [
+                                "pre_read_stimuli",
+                                "pre_encodeSMU",
+                                "pre_saveSMUtoSSM",
+                                "pre_copySMUtoBCPUInput"
+                            ],
+                            "postconditions": [
+                                "post_read_stimuli",
+                                "post_encodeSMU",
+                                "post_saveSMUtoSSM",
+                                "post_copySMUtoBCPUInput"
+                            ],
+                            "Y": [
+                                "new_stimuli_is_detected",
+                                "input_is_read_from_sensor",
+                                "input_fact_is_encode",
+                                "input_fact_is_saved_into_SSM",
+                                "input_fact_is_copied_into_BCPU_input",
+                                "input_is_perceive"
+                            ]
+                        }
+                    }
+                },
+                "A": []
+            },
+            {
+                "is_a": {
+                    "Profile": "adan"
+                },
+                "has": {
+                    "F": {
+                        "is a": {
+                            "type": "Field"
+                        },
+                        "has": {
+                            "Name": "adan",
+                            "Value": {
+                                "is a": {
+                                    "type": "AKP_Field"
+                                },
+                                "has": {
+                                    "PCField": {
+                                        "id": "_6k9gmg4sa",
+                                        "B": 1564157046594,
+                                        "E": 1564157046594,
+                                        "IP": "adan",
+                                        "OP": {
+                                            "id": "_lukfdt2tg",
+                                            "typeSMU": "",
+                                            "name": "adan"
+                                        },
+                                        "C": "Medium",
+                                        "S": "Activo"
+                                    }
+                                }
+                            },
+                            "preconditions": [
+                                "pre_read_stimuli",
+                                "pre_encodeSMU",
+                                "pre_saveSMUtoSSM",
+                                "pre_copySMUtoBCPUInput"
+                            ],
+                            "postconditions": [
+                                "post_read_stimuli",
+                                "post_encodeSMU",
+                                "post_saveSMUtoSSM",
+                                "post_copySMUtoBCPUInput"
+                            ],
+                            "Y": [
+                                "new_stimuli_is_detected",
+                                "input_is_read_from_sensor",
+                                "input_fact_is_encode",
+                                "input_fact_is_saved_into_SSM",
+                                "input_fact_is_copied_into_BCPU_input",
+                                "input_is_perceive"
+                            ]
+                        }
+                    }
+                },
+                "A": []
+            }
+        ]
+    }
+}

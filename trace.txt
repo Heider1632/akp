@@ -1,0 +1,26 @@
+{
+"ID": 0,
+"S":  "active",
+"C": "hight"
+"Y": "drink_water",
+"E": 0,
+"B":  0
+} 
+
+{
+"ID": 1,
+"S":  "inactive",
+"C": "medium"
+"Y": "eat",
+"E": 0,
+"B":  0
+} 
+
+{
+"ID": 2,
+"S":  "inactive",
+"C": "low"
+"Y": "sleep",
+"E": 0,
+"B":  0
+} 
